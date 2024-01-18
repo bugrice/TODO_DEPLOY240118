@@ -1,9 +1,9 @@
-# fly.toml app configuration file generated for todo-deploy241 on 2024-01-18T22:21:36+09:00
+# fly.toml app configuration file generated for todo-deploy20240119 on 2024-01-19T01:26:10+09:00
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = "todo-deploy241"
+app = "todo-deploy20240119"
 primary_region = "nrt"
 
 [build]

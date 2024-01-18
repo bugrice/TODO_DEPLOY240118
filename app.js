@@ -1,18 +1,25 @@
 import express from "express";
+import cors from "cors";
 import pkg from 'pg';
 
 const { Pool } = pkg;
 
 const pool = new Pool({
     user: 'postgres',
-    password: 'LKitunXV2t7Z5er',
-    host: 'todo2024.internal',
+    password: '4E2g1hjHhvtgcAx',
+    host: 'sik-todo240119.internal',
     database: 'postgres',
     port: 5432,
   });
 
 
 const app = express();
+const corsOptions = {
+    origin: "*",
+  };
+  
+  app.use(cors(corsOptions));
+
 
 app.use(express.json());
 
