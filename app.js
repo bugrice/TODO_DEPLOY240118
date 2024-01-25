@@ -4,6 +4,15 @@ import pkg from 'pg';
 
 const { Pool } = pkg;
 
+
+// const pool = new Pool({
+//     user: 'postgres',
+//     password: '4E2g1hjHhvtgcAx',
+//     host: 'sik-todo240119.internal',
+//     database: 'postgres',
+//     port: 5432,
+//   });
+
 const pool = new Pool({
     user: 'postgres',
     password: '4E2g1hjHhvtgcAx',
